@@ -1,7 +1,12 @@
 # DrawNine
 
-[![CI](https://github.com/inixio-dev/drawnine/actions/workflows/ci.yml/badge.svg)](https://github.com/inixio-dev/drawnine/actions/workflows/ci.yml)
+[![CI](https://github.com/inixio-dev/drawnine/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/inixio-dev/drawnine/actions/workflows/ci.yml?query=branch%3Amain)
+[![npm version](https://img.shields.io/npm/v/drawnine?logo=npm)](https://www.npmjs.com/package/drawnine)
+[![Node.js](https://img.shields.io/node/v/drawnine?logo=nodedotjs&logoColor=white)](https://nodejs.org)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-fe5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
+[![Card data: Scryfall](https://img.shields.io/badge/card%20data-Scryfall-6f42c1)](https://scryfall.com)
 
 Magic: The Gathering proxy generator **for deck playtesting**. Given a decklist (and optionally a `.zip` with your own art), it generates a printable A4 PDF with cards at real size (63×88 mm), laid out in a 3×3 grid with cut marks.
 
