@@ -1,0 +1,8 @@
+Deck
+4 Lightning Bolt
+4 Delver of Secrets
+2 Fire // Ice
+12 Island
+
+Sideboard
+2 Pyroblast

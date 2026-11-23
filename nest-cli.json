@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "monorepo": true,
+  "root": "apps/api",
+  "sourceRoot": "apps/api/src",
+  "compilerOptions": {
+    "builder": "tsc",
+    "deleteOutDir": true,
+    "tsConfigPath": "apps/api/tsconfig.app.json"
+  },
+  "projects": {
+    "api": {
+      "type": "application",
+      "root": "apps/api",
+      "entryFile": "main",
+      "sourceRoot": "apps/api/src",
+      "compilerOptions": { "tsConfigPath": "apps/api/tsconfig.app.json" }
+    },
+    "cli": {
+      "type": "application",
+      "root": "apps/cli",
+      "entryFile": "main",
+      "sourceRoot": "apps/cli/src",
+      "compilerOptions": { "tsConfigPath": "apps/cli/tsconfig.app.json" }
+    },
+    "core": {
+      "type": "library",
+      "root": "libs/core",
+      "entryFile": "index",
+      "sourceRoot": "libs/core/src",
+      "compilerOptions": { "tsConfigPath": "libs/core/tsconfig.lib.json" }
+    },
+    "decklist-parser": {
+      "type": "library",
+      "root": "libs/decklist-parser",
+      "entryFile": "index",
+      "sourceRoot": "libs/decklist-parser/src",
+      "compilerOptions": { "tsConfigPath": "libs/decklist-parser/tsconfig.lib.json" }
+    },
+    "pdf-renderer": {
+      "type": "library",
+      "root": "libs/pdf-renderer",
+      "entryFile": "index",
+      "sourceRoot": "libs/pdf-renderer/src",
+      "compilerOptions": { "tsConfigPath": "libs/pdf-renderer/tsconfig.lib.json" }
+    },
+    "scryfall-client": {
+      "type": "library",
+      "root": "libs/scryfall-client",
+      "entryFile": "index",
+      "sourceRoot": "libs/scryfall-client/src",
+      "compilerOptions": { "tsConfigPath": "libs/scryfall-client/tsconfig.lib.json" }
+    },
+    "assets": {
+      "type": "library",
+      "root": "libs/assets",
+      "entryFile": "index",
+      "sourceRoot": "libs/assets/src",
+      "compilerOptions": { "tsConfigPath": "libs/assets/tsconfig.lib.json" }
+    },
+    "storage": {
+      "type": "library",
+      "root": "libs/storage",
+      "entryFile": "index",
+      "sourceRoot": "libs/storage/src",
+      "compilerOptions": { "tsConfigPath": "libs/storage/tsconfig.lib.json" }
+    }
+  }
+}

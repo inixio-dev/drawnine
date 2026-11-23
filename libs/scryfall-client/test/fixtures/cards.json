@@ -1,0 +1,65 @@
+{
+  "lightningBolt": {
+    "object": "card",
+    "id": "e3285e6b-3e79-4d7c-bf96-d920f973b122",
+    "name": "Lightning Bolt",
+    "set": "m10",
+    "collector_number": "146",
+    "layout": "normal",
+    "image_uris": {
+      "normal": "https://cards.scryfall.io/normal/front/e/3/e3285e6b.jpg?1",
+      "large": "https://cards.scryfall.io/large/front/e/3/e3285e6b.jpg?1",
+      "png": "https://cards.scryfall.io/png/front/e/3/e3285e6b.png?1"
+    }
+  },
+  "delver": {
+    "object": "card",
+    "id": "11bf83bb-c95b-4b4f-9a56-ce7a1816307a",
+    "name": "Delver of Secrets // Insectile Aberration",
+    "set": "isd",
+    "collector_number": "51",
+    "layout": "transform",
+    "card_faces": [
+      {
+        "object": "card_face",
+        "name": "Delver of Secrets",
+        "image_uris": {
+          "png": "https://cards.scryfall.io/png/front/1/1/11bf83bb.png?1"
+        }
+      },
+      {
+        "object": "card_face",
+        "name": "Insectile Aberration",
+        "image_uris": {
+          "png": "https://cards.scryfall.io/png/back/1/1/11bf83bb.png?1"
+        }
+      }
+    ]
+  },
+  "fireIce": {
+    "object": "card",
+    "id": "b8b1e7a5-4bb3-4b19-b0dc-0d3e8e8a0b5e",
+    "name": "Fire // Ice",
+    "set": "mh2",
+    "collector_number": "290",
+    "layout": "split",
+    "image_uris": {
+      "png": "https://cards.scryfall.io/png/front/b/8/b8b1e7a5.png?1"
+    },
+    "card_faces": [
+      { "object": "card_face", "name": "Fire" },
+      { "object": "card_face", "name": "Ice" }
+    ]
+  },
+  "lilianaEnTilde": {
+    "object": "card",
+    "id": "5c3b2f0e-0000-4000-8000-000000000001",
+    "name": "Lim-Dûl's Vault",
+    "set": "all",
+    "collector_number": "110",
+    "layout": "normal",
+    "image_uris": {
+      "png": "https://cards.scryfall.io/png/front/5/c/5c3b2f0e.png?1"
+    }
+  }
+}
