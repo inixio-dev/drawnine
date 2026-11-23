@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { mmToPt } from '@app/pdf-renderer';
+import { mmToPt } from '@drawnine/pdf-renderer';
 
 describe('mmToPt', () => {
   it('converts 25.4 mm to 72 pt', () => {

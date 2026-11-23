@@ -14,7 +14,7 @@ import {
   MAX_GAP_MM,
   SCRYFALL_LANGUAGES,
   type ScryfallLanguage,
-} from '@app/core';
+} from '@drawnine/core';
 
 /** multipart/form-data sends everything as strings. */
 const toBoolean = ({ value }: { value: unknown }): unknown =>

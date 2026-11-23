@@ -2,7 +2,7 @@ import {
   type DecklistLineError,
   type ProxyWarningCode,
   SCRYFALL_LANGUAGES,
-} from '@app/core';
+} from '@drawnine/core';
 
 const AUTHOR = '@inixio-dev';
 const AUTHOR_URL = 'https://github.com/inixio-dev';

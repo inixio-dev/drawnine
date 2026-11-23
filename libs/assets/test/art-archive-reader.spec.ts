@@ -5,7 +5,7 @@ import {
   ArtArchiveLimitError,
   ArtArchiveReader,
   DEFAULT_ZIP_LIMITS,
-} from '@app/assets';
+} from '@drawnine/assets';
 import { targetSize } from '../src/art-archive-reader.js';
 import { makeJpg, makePng, makeZip } from './helpers.js';
 

@@ -15,7 +15,7 @@ import {
   ScryfallError,
   type ScryfallLanguage,
   TooManyCardsError,
-} from '@app/core';
+} from '@drawnine/core';
 import { ExitCode } from '../exit-codes.js';
 import { lineErrorReason, messages, warningMessage } from '../messages.js';
 

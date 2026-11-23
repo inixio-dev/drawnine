@@ -10,7 +10,7 @@ import {
   ScryfallError,
   ScryfallRateLimitError,
   TooManyCardsError,
-} from '@app/core';
+} from '@drawnine/core';
 import { toHttp } from '../../src/common/domain-exception.filter.js';
 
 describe('toHttp', () => {

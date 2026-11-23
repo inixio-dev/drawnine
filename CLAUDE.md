@@ -42,7 +42,7 @@ libs/decklist-parser/
 - `scryfall-client`, `assets`, `storage` → may use `@nestjs/common` to expose modules, but their logic must not depend on Nest.
 - Never import from `apps/` inside `libs/`.
 
-Always use the `tsconfig.json` path aliases (`@app/core`, `@app/decklist-parser`…), never relative paths between libs.
+Always use the `tsconfig.json` path aliases (`@drawnine/core`, `@drawnine/decklist-parser`…), never relative paths between libs.
 
 ## Commands
 

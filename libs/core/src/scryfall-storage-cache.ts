@@ -1,5 +1,5 @@
-import type { ScryfallCache } from '@app/scryfall-client';
-import type { StorageService } from '@app/storage';
+import type { ScryfallCache } from '@drawnine/scryfall-client';
+import type { StorageService } from '@drawnine/storage';
 
 /** Adapts a StorageService into the cache interface the Scryfall client expects. */
 export class ScryfallStorageCache implements ScryfallCache {

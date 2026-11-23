@@ -4,19 +4,19 @@ import {
   ArtArchiveReader,
   type ArtAsset,
   normalizeCardName,
-} from '@app/assets';
+} from '@drawnine/assets';
 import {
   type DecklistEntry,
   parseDecklist,
   type ParsedDecklist,
-} from '@app/decklist-parser';
+} from '@drawnine/decklist-parser';
 import {
   type CardImage,
   CARDS_PER_PAGE,
   computeGridLayout,
   DEFAULT_LAYOUT_OPTIONS,
   renderPdf,
-} from '@app/pdf-renderer';
+} from '@drawnine/pdf-renderer';
 import {
   type CardIdentifier,
   detectImageFormat,
@@ -26,7 +26,7 @@ import {
   type ScryfallCard,
   ScryfallError,
   type ScryfallLanguage,
-} from '@app/scryfall-client';
+} from '@drawnine/scryfall-client';
 import {
   CardsNotFoundError,
   EmptyDecklistError,

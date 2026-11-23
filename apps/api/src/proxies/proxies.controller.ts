@@ -9,7 +9,7 @@ import {
 } from '@nestjs/common';
 import { FileInterceptor } from '@nestjs/platform-express';
 import type { Response } from 'express';
-import { ProxyService } from '@app/core';
+import { ProxyService } from '@drawnine/core';
 import { CreateProxiesDto } from './dto/create-proxies.dto.js';
 
 /**

@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import { CoreModule } from '@app/core';
-import { StorageModule, storageOptionsFromEnv } from '@app/storage';
+import { CoreModule } from '@drawnine/core';
+import { StorageModule, storageOptionsFromEnv } from '@drawnine/storage';
 import { DecksController } from './decks/decks.controller.js';
 import { ProxiesController } from './proxies/proxies.controller.js';
 

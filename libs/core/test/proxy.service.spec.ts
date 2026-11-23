@@ -26,16 +26,16 @@ import {
   ProxyService,
   ScryfallError,
   TooManyCardsError,
-} from '@app/core';
-import { ArtArchiveReader } from '@app/assets';
+} from '@drawnine/core';
+import { ArtArchiveReader } from '@drawnine/assets';
 import {
   type CardIdentifier,
   type CollectionResult,
   identifierKey,
   ScryfallClient,
   type ScryfallCard,
-} from '@app/scryfall-client';
-import { StorageModule } from '@app/storage';
+} from '@drawnine/scryfall-client';
+import { StorageModule } from '@drawnine/storage';
 
 const card = (
   name: string,

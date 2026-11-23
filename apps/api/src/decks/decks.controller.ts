@@ -1,5 +1,5 @@
 import { Body, Controller, HttpCode, HttpStatus, Post } from '@nestjs/common';
-import { ProxyService, type ParsedDecklist } from '@app/core';
+import { ProxyService, type ParsedDecklist } from '@drawnine/core';
 import { ParseDecklistDto } from './dto/parse-decklist.dto.js';
 
 @Controller('decks')

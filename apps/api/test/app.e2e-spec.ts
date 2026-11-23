@@ -12,7 +12,7 @@ import {
   type CardIdentifier,
   ScryfallClient,
   type ScryfallCard,
-} from '@app/scryfall-client';
+} from '@drawnine/scryfall-client';
 import { AppModule } from '../src/app.module.js';
 import { configureApp } from '../src/configure-app.js';
 

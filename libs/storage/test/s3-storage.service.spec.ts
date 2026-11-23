@@ -4,7 +4,7 @@ import {
   PutObjectCommand,
 } from '@aws-sdk/client-s3';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
-import { S3StorageService, StorageError } from '@app/storage';
+import { S3StorageService, StorageError } from '@drawnine/storage';
 
 const notFound = (name: string) =>
   Object.assign(new Error(name), { name, $metadata: { httpStatusCode: 404 } });

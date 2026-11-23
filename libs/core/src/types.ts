@@ -1,6 +1,6 @@
-import type { ParsedDecklist } from '@app/decklist-parser';
-import type { LayoutOptions } from '@app/pdf-renderer';
-import type { ScryfallLanguage } from '@app/scryfall-client';
+import type { ParsedDecklist } from '@drawnine/decklist-parser';
+import type { LayoutOptions } from '@drawnine/pdf-renderer';
+import type { ScryfallLanguage } from '@drawnine/scryfall-client';
 
 export interface ProxyOptions extends LayoutOptions {
   /** Print both faces of double-faced cards (default true). */

@@ -1,4 +1,4 @@
-import type { DecklistEntry } from '@app/decklist-parser';
+import type { DecklistEntry } from '@drawnine/decklist-parser';
 
 /**
  * Order in which entries are printed: decklist order, with the commander(s)

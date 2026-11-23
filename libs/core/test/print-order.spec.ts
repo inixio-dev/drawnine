@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { type DecklistEntry, printOrder } from '@app/core';
+import { type DecklistEntry, printOrder } from '@drawnine/core';
 
 const entry = (
   name: string,
