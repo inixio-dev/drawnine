@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { DecklistParseError, parseDecklist } from '@app/decklist-parser';
+import { DecklistParseError, parseDecklist } from '@drawnine/decklist-parser';
 
 describe('parseDecklist', () => {
   it('returns no entries and no errors for an empty decklist', () => {

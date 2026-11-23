@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import type { ScryfallCard } from '@app/scryfall-client';
+import type { ScryfallCard } from '@drawnine/scryfall-client';
 
 type FixtureName = 'lightningBolt' | 'delver' | 'fireIce' | 'lilianaEnTilde';
 

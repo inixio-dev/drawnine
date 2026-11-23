@@ -12,7 +12,7 @@ import {
   ProxyService,
   ScryfallError,
   TooManyCardsError,
-} from '@app/core';
+} from '@drawnine/core';
 import { BuildCommand, reportError } from '../../src/commands/build.command.js';
 import { ExitCode } from '../../src/exit-codes.js';
 

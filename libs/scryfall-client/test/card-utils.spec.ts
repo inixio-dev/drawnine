@@ -4,7 +4,7 @@ import {
   getCardImages,
   identifierKey,
   matchesIdentifier,
-} from '@app/scryfall-client';
+} from '@drawnine/scryfall-client';
 import { cards } from './fixtures/fixtures.js';
 
 describe('getCardImages', () => {

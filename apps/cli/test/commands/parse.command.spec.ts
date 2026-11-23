@@ -3,7 +3,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { Test } from '@nestjs/testing';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
-import { ProxyService } from '@app/core';
+import { ProxyService } from '@drawnine/core';
 import { ParseCommand } from '../../src/commands/parse.command.js';
 import { ExitCode } from '../../src/exit-codes.js';
 

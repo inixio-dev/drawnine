@@ -8,7 +8,7 @@ import {
   type ScryfallCard,
   ScryfallError,
   ScryfallRateLimitError,
-} from '@app/scryfall-client';
+} from '@drawnine/scryfall-client';
 import { cards, jsonResponse } from './fixtures/fixtures.js';
 
 class MemoryCache implements ScryfallCache {

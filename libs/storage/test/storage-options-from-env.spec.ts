@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { StorageError, storageOptionsFromEnv } from '@app/storage';
+import { StorageError, storageOptionsFromEnv } from '@drawnine/storage';
 
 describe('storageOptionsFromEnv', () => {
   it('defaults to disk with the given root', () => {

@@ -14,7 +14,7 @@ import {
   LayoutError,
   ScryfallError,
   TooManyCardsError,
-} from '@app/core';
+} from '@drawnine/core';
 import { messages } from '../messages.js';
 
 const DOMAIN_ERRORS = [

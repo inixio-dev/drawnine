@@ -9,7 +9,7 @@ import {
   DEFAULT_LAYOUT_OPTIONS,
   LayoutError,
   type LayoutOptions,
-} from '@app/pdf-renderer';
+} from '@drawnine/pdf-renderer';
 
 const noMarks: LayoutOptions = { gapMm: 0, bleedMm: 0, cutMarks: false };
 

@@ -1,4 +1,4 @@
-import type { DecklistLineError } from '@app/decklist-parser';
+import type { DecklistLineError } from '@drawnine/decklist-parser';
 
 /** The decklist has invalid lines; generation is aborted. */
 export class InvalidDecklistError extends Error {

@@ -1,6 +1,6 @@
 import { readFile } from 'node:fs/promises';
 import { Command, CommandRunner } from 'nest-commander';
-import { ProxyService } from '@app/core';
+import { ProxyService } from '@drawnine/core';
 import { ExitCode } from '../exit-codes.js';
 import { lineErrorReason, messages } from '../messages.js';
 

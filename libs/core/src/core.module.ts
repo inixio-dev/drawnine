@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { AssetsModule } from '@app/assets';
-import { ScryfallModule } from '@app/scryfall-client';
-import { StorageService } from '@app/storage';
+import { AssetsModule } from '@drawnine/assets';
+import { ScryfallModule } from '@drawnine/scryfall-client';
+import { StorageService } from '@drawnine/storage';
 import {
   DEFAULT_MAX_CARDS,
   PROXY_SERVICE_OPTIONS,

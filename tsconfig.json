@@ -21,12 +21,12 @@
     "noImplicitOverride": true,
     "types": ["node", "multer"],
     "paths": {
-      "@app/core": ["./libs/core/src/index.ts"],
-      "@app/decklist-parser": ["./libs/decklist-parser/src/index.ts"],
-      "@app/pdf-renderer": ["./libs/pdf-renderer/src/index.ts"],
-      "@app/scryfall-client": ["./libs/scryfall-client/src/index.ts"],
-      "@app/assets": ["./libs/assets/src/index.ts"],
-      "@app/storage": ["./libs/storage/src/index.ts"]
+      "@drawnine/core": ["./libs/core/src/index.ts"],
+      "@drawnine/decklist-parser": ["./libs/decklist-parser/src/index.ts"],
+      "@drawnine/pdf-renderer": ["./libs/pdf-renderer/src/index.ts"],
+      "@drawnine/scryfall-client": ["./libs/scryfall-client/src/index.ts"],
+      "@drawnine/assets": ["./libs/assets/src/index.ts"],
+      "@drawnine/storage": ["./libs/storage/src/index.ts"]
     }
   },
   "include": ["apps", "libs", "*.config.ts", "vitest.config.e2e.ts"],

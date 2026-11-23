@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { normalizeCardName } from '@app/assets';
+import { normalizeCardName } from '@drawnine/assets';
 
 describe('normalizeCardName', () => {
   it('lowercases', () => {

@@ -5,7 +5,7 @@ import {
   DEFAULT_LAYOUT_OPTIONS,
   PdfRenderError,
   renderPdf,
-} from '@app/pdf-renderer';
+} from '@drawnine/pdf-renderer';
 
 // Smallest valid PNG: 1×1 pixel.
 const PNG_1PX = Uint8Array.from(
